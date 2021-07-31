@@ -1,0 +1,8 @@
+yaml文件中的
+# parameters
+nc: 9  # number of classes
+nc改为你自己的类别数
+
+pt为官方权重文件，百度网盘链接：
+链接：https://pan.baidu.com/s/1LpPW9TuR-5Pp8aPOGAM89A 
+提取码：ys4m 

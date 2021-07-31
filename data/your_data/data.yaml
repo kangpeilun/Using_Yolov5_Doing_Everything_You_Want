@@ -1,0 +1,14 @@
+# 注意 路径是相对于 train.py 的路径
+train: ./data/your_data/train/images
+val: ./data/your_data/valid/images
+
+nc: 9   # 更改为自己的类别数, 以及类别名
+names: [ 'Agaricus',
+         'Amanita',
+         'Boletus',
+         'Cortinarius',
+         'Entoloma',
+         'Hygrocybe',
+         'Lactarius',
+         'Russula',
+         'Suillus']

@@ -1,0 +1,5 @@
+用于存放训练数据，使用mogu中的voc2yolo.py将VOC格式(XML)数据转换为yolo格式(txt)
+voc2yolo.py文件可以修改验证集的比例，默认为10%的数据集
+hyp.scratch.yaml为超参数文件，可对里面的超参数进行修改，但不建议修改，这个基本够用了，如果预测效果不好，可以试着修改
+
+data.yaml更改为你自己的数据配置，注意your_data.names也要修改
